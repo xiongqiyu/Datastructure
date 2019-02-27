@@ -1,8 +1,8 @@
 /*
-	First name	XXX
-	Last name		XXX
-	Student ID	XXXXXX (e.g. 01234567)
-	Username		XXX (e.g. aaa123)	
+	First name	Qiyu
+	Last name		Xiong
+	Student ID	01327233
+	Username		qx1617
 */
 
 //IMPORTANT: before submitting your source code, please make sure to comment your main function (needed for automated testing)
@@ -24,7 +24,7 @@ struct node {
 	node* west;
 };
 
-// do not alter the typedef 
+// do not alter the typedef
 typedef node* nodeptr;
 
 /////////////////////////////////////////
@@ -43,7 +43,7 @@ void solve_interactively(const nodeptr& start, const nodeptr& finish, std::strin
 // allows the user to solve the maze interactively
 
 nodeptr random_walk(const nodeptr& start, const nodeptr& finish, std::string& path);
-// simulates a random walk in the maze 
+// simulates a random walk in the maze
 
 void solve_queue(const nodeptr& start, const nodeptr& finish, std::string& path);
 // an improvement of the random walk: solves the maze using a queue to store the unvisited neighbours of the current node
